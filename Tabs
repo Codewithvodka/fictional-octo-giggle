@@ -1,0 +1,123 @@
+<div class="wrapper">
+  <div class="tabs">
+    <div class="tab">
+      <input type="radio" name="css-tabs" id="MSC - MSR's" checked class="tab-switch">
+      <label for="MSC - MSR's" class="tab-label">MSC - MSR's</label>
+      <div class="tab-content">
+        <div class="tab-inner">
+          <!--Tab ONE-->
+          <H2>Member Service Center MSR's</h2>
+          <p>
+            For services that MSC MSR's are able to process by phone: <b>Let the member know you you will be transferring them into a queue and they will be helped by the next available agent equipped to complete their request.</b>
+          <ul>
+            <li>Transfer to Phone MSR service queue x5966 </li>
+            <li>Cold transfer the member directly to x5966</li>
+          </ul>
+          Sweet jelly beans jujubes gummies lemon drops gummies jelly. Pudding tootsie roll brownie dessert shortbread donut. Icing fruitcake caramels jelly beans jelly gummies.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="tab">
+      <input type="radio" name="css-tabs" id="Branch" class="tab-switch">
+      <label for="Branch" class="tab-label">Branch</label>
+      <div class="tab-content">
+        <div class="tab-inner">
+          <!--Tab TWO-->
+          Danish marzipan jelly-o gummi bears powder macaroon marzipan. Liquorice bear claw marshmallow muffin liquorice gummies tart. Jujubes sweet chocolate cake gingerbread toffee macaroon macaroon oat cake. Fruitcake marzipan gingerbread marzipan macaroon.
+
+          Brownie chocolate bar brownie cake cotton candy soufflé sweet candy lollipop. Carrot cake carrot cake gingerbread marshmallow danish. Sugar plum donut tootsie roll oat cake fruitcake croissant pudding.
+        </div>
+      </div>
+    </div>
+    <div class="tab">
+      <input type="radio" name="css-tabs" id="Loyalty" class="tab-switch">
+      <label for="Loyalty" class="tab-label">Loyalty</label>
+      <div class="tab-content">
+        <div class="tab-inner">
+          <!--tab three-->
+          Cupcake ipsum dolor sit amet halvah donut. Gummi bears ice cream candy toffee candy canes wafer cotton candy. Brownie bear claw halvah apple pie dessert sesame snaps croissant oat cake candy.
+
+          Ice cream cupcake bonbon jujubes topping. Apple pie bear claw croissant jelly-o candy pastry topping. Oat cake tootsie roll sweet topping marshmallow carrot cake.
+        </div>
+      </div>
+    </div>
+    
+    <style>
+* {
+  box-sizing:;
+}
+body {
+  background: #2c3e50;
+  color: #ecf0f1;
+}
+.wrapper {
+  max-width: 75%;
+  width: 75%;
+  margin: 0 auto;
+}
+.tabs {
+  position: relative;
+  background:;
+}
+.tabs::before,
+.tabs::after {
+  content: "";
+  display: table;
+}
+.tabs::after {
+  clear: both;
+}
+.tab {
+  float: left;
+}
+.tab-switch {
+  display: none;
+}
+.tab-label {
+  position: relative;
+  display: block;
+  line-height: 2.75em;
+  height: 3em;
+  padding: 0 1.618em;
+  background: #1abc9c;
+  border-right: 0.125rem solid #00529c;
+  color: #fff;
+  cursor: pointer;
+  top: 0;
+  transition: all 0.25s;
+}
+.tab-label:hover {
+  top: -0.25rem;
+  transition: top 0.25s;
+}
+.tab-content {
+  position: absolute;
+  z-index: 1;
+  top: 2.75em;
+  left: 0;
+  padding: 1.618rem;
+  background: #fff;
+  color: #2c3e50;
+  border-bottom: 0.25rem solid #bdc3c7;
+  opacity: 0;
+  transition: all 0.35s;
+}
+.tab-switch:checked + .tab-label {
+  background: #fff;
+  color: #2c3e50;
+  border-bottom: 0;
+  border-right: 0.125rem solid #fff;
+  transition: all 0.35s;
+  z-index: 1;
+  top: -0.0625rem;
+}
+.tab-switch:checked + label + .tab-content {
+  z-index: 2;
+  opacity: 1;
+  transition: all 0.35s;
+}
+.panel {
+	height: 4792px;
+}
+</style>
